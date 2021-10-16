@@ -1,3 +1,25 @@
+# Dockerfile
+Created: 2021-10-16 13:40
+
+A Dockerfile contains instructions for building an image.
+
+FROM - specifies the base image. This contains the files and directories, then we build on top of it.
+
+WORKDIR - specifies the working directory. All subsequent commands will be executed from this directory.
+
+COPY, ADD - copying files and directories.
+
+RUN - execute operating system commands (e.g. linux commands [[Basic Commands]])
+
+ENV - setting environment variables.
+
+EXPOSE - tells Docker the container is starting on a specific port.
+
+USER - specifies the user that should run the application.
+
+CMD, ENTRYPOINT - specifies the command that should be executed when we start a container.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
